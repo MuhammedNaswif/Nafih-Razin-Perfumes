@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Midnight Oud | AL MAJED</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">AL MAJED</div>
+        <nav>
+            <ul><li><a href="index.html">Home</a></li><li><a href="shop.html">Collection</a></li></ul>
+        </nav>
+        <div class="cart-icon" onclick="window.location.href='checkout.html'">CART <span class="cart-count">0</span></div>
+    </header>
+
+    <div class="container product-detail">
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1594035910387-fea4779426e9?q=80&w=1200&auto=format&fit=crop" alt="Midnight Oud">
+        </div>
+        <div class="product-info">
+            <h1 style="font-size: 3rem; margin-bottom: 10px;">Midnight Oud</h1>
+            <span class="price" style="font-size: 1.5rem; margin-bottom: 20px;">QAR 450.00</span>
+            <p style="line-height: 1.6; color: #ccc;">
+                A mysterious and enchanting fragrance that captures the essence of a moonlit night in the Arabian desert. 
+                Rich, woody, and intensely sophisticated.
+            </p>
+
+            <div class="olfactory-pyramid">
+                <span class="note-title">TOP NOTES</span>
+                <p>Saffron, Bergamot, Black Pepper</p>
+                
+                <span class="note-title">HEART NOTES</span>
+                <p>Turkish Rose, Cinnamon, Incense</p>
+                
+                <span class="note-title">BASE NOTES</span>
+                <p>Agarwood (Oud), Amber, Sandalwood</p>
+            </div>
+
+            <button class="btn-gold" style="width: 100%;" onclick="addToCart('Midnight Oud', 450)">Add to Cart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
